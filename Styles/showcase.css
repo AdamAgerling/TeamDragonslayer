@@ -23,3 +23,12 @@ html, body {
     margin: 5px;
   }
   
+
+/* https://paletton.com/#uid=34W0U0kllllb+vGgFqwq0gauGa+ */
+.dark-section{
+  background-color: #4b0082 !important;
+}
+
+.light-section{
+  background-color: #e6e6fa !important;
+}
