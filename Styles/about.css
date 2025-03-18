@@ -9,9 +9,11 @@ body {
 .content {
   flex-grow: 1;
 }
+
 main {
   flex: 1;
 }
+
 .footer {
   background-color: #e3e1e1;
   display: flex;
@@ -22,6 +24,14 @@ main {
   padding: 10px 10px;
   width: 100%;
 }
+.dark-section {
+  background-color: #4b0082 !important;
+}
+
+.light-section {
+  background-color: #e6e6fa !important;
+}
+
 .footer p {
   margin: 5px;
 }
