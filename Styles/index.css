@@ -18,8 +18,47 @@ html, body {
     align-items: center;
     justify-content: space-between;
   }
-
+  
   .footer p {
     margin: 5px;
   }
   
+  .custom-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
+  .carousel-item {
+    height: 250px;
+  }
+
+  .whoareweSection {
+    background-color: #e6e6fa !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .whoarewesubSection {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+
+  .whoarewesubDescription {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .whoarewesubDescription p, h3 {
+    width: 300px;
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: contain;
+  }
