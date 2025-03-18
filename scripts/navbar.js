@@ -43,14 +43,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("scroll", function () {
     if (window.scrollY > scrollPoint) {
-      navElement.style.position = "fixed";
-      navElement.style.top = "0";
-      navElement.style.width = "100%";
-      navElement.style.zIndex = "1030";
-      navElement.classList.add("shadow");
+      navElement.classList.add("fixed-top", "shadow");
     } else {
-      navElement.style.position = "static";
-      navElement.classList.remove("shadow");
+      navElement.classList.remove("fixed", "shadow");
     }
   });
 });

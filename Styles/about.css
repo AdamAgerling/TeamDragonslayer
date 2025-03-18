@@ -9,7 +9,6 @@ body {
 .content {
   flex-grow: 1;
 }
-
 main {
   flex: 1;
 }
@@ -24,6 +23,7 @@ main {
   padding: 10px 10px;
   width: 100%;
 }
+
 .dark-section {
   background-color: #4b0082 !important;
 }
