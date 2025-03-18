@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  const scrollPoint = 30;
+  const scrollPoint = 50;
 
   window.addEventListener("scroll", function () {
     if (window.scrollY > scrollPoint) {
