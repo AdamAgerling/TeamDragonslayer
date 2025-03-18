@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentPath = window.location.pathname;
 
   const navElement = document.createElement("nav");
-  navElement.className = "navbar navbar-expand-lg bg-dark navbar-dark";
+  navElement.className = "navbar navbar-expand-lg bg-dark navbar-dark ";
   navElement.innerHTML = `
         <div class="container-fluid">
             <a class="navbar-brand text-danger fs-2 d-flex align-items-center" href="/index.html">
@@ -39,13 +39,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  const scrollPoint = 100;
+  const scrollPoint = 25;
 
   window.addEventListener("scroll", function () {
     if (window.scrollY > scrollPoint) {
       navElement.classList.add("fixed-top", "shadow");
     } else {
-      navElement.classList.remove("fixed", "shadow");
+      navElement.classList.remove("fixed-top", "shadow");
     }
   });
 });
