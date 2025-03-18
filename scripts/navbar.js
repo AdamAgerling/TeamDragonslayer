@@ -39,13 +39,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  const scrollPoint = 100;
+  const scrollPoint = 30;
 
   window.addEventListener("scroll", function () {
     if (window.scrollY > scrollPoint) {
-      navElement.classList.add("sticky-top", "shadow");
+      navElement.style.position = "fixed";
+      navElement.style.top = "0";
+      navElement.style.width = "100%";
+      navElement.style.zIndex = "1030";
+      navElement.classList.add("shadow");
     } else {
-      navElement.classList.remove("sticky-top", "shadow");
+      navElement.style.position = "static";
+      navElement.classList.remove("shadow");
     }
   });
 });
