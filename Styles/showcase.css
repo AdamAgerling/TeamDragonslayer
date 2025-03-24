@@ -33,3 +33,8 @@ main {
 .light-section {
   background-color: #e6e6fa !important;
 }
+
+img{
+  max-height: 400px;
+  margin: 0px 50px;
+}
