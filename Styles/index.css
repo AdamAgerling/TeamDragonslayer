@@ -62,3 +62,16 @@ html, body {
     height: 200px;
     object-fit: contain;
   }
+  
+  .Padding1 {
+    position: relative;
+    right: 50px;
+  }  
+  .Padding2 {
+    position: relative;
+    left: 15px;
+  }
+  .Padding3 {
+    position: relative;
+    left: 60px;
+  }
