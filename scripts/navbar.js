@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   navElement.innerHTML = `
         <div class="container-fluid">
             <a class="navbar-brand text-danger fs-2 d-flex align-items-center" href="/index.html">
-                <img src="../images/LogoPlaceholder.png" alt="Team Dragonslayer Logo" width="100" height="40" class="d-inline-block align-text-top me-2">
+                <img src="../images/Logo.png" alt="Team Dragonslayer Logo" width="130" height="65" class="d-inline-block align-text-top me-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
