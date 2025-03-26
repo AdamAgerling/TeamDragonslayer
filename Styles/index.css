@@ -75,3 +75,8 @@ html, body {
     position: relative;
     left: 60px;
   }
+
+  .CardMargin {
+    position: relative;
+    margin-top: 20px;
+  }
